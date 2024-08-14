@@ -91,8 +91,15 @@ plt.show()"""
 # df.rename(columns = {"deck" : "cabin"}, inplace = True)
 # print(df.columns)
 
-plt.hist(df["who"], color = "skyblue", edgecolor = "black")
+"""plt.hist(df["who"], color = "skyblue", edgecolor = "black")
 plt.xlabel("Passenger Type")
 plt.ylabel("Frequency")
 plt.title("Distribution of Passengers Types")
+plt.show()"""
+
+numeric_df = df.select_dtypes(include = ["int64", "float64"])
+corr_matrix = numeric_df.corr()
+plt.figure(figsize = (10, 10))
+sns.heatmap(corr_matrix, annot = True, cmap = "PuBuGn", fmt = ".2f")
+plt.title("Correlation Matrix of Titanic Dataset")
 plt.show()
