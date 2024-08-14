@@ -48,4 +48,28 @@ plt.ylabel("Number of Passengers")
 plt.title("Survival by Class")
 plt.show()"""
 
+"""sns.catplot(x = "embark_town", hue = "survived", col = "pclass", data = df, kind = "count", palette = "Set2")
+plt.xlabel("Embarkation Town")
+plt.ylabel("Number of Passengers")
+plt.suptitle("Survival by Embarkation Town and Passenger Class")
+plt.show()"""
 
+# print(df.describe())
+# print(df["embark_town"].describe())
+
+# print(df["survived"].value_counts())
+# print(df["alive"].value_counts())
+#df.drop(columns = ["alive"], inplace = True)
+#print(df.columns)
+# print(df["embarked"].value_counts())
+# print(df["embark_town"].value_counts())
+# df.drop(columns = ["embarked"], inplace = True)  
+# print(df.columns)
+# print(df["class"].value_counts())
+# print(df["pclass"].value_counts())
+# df.drop(columns = ["class"], inplace = True)
+# print(df.columns)
+
+# print(df["adult_male"].value_counts())
+df["adult_male"].replace({True : 1, False : 0}, inplace = True)
+print(df["adult_male"].value_counts())

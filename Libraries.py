@@ -1,4 +1,4 @@
-"""import math
+import math
 num = 25
 result = math.sqrt(num)
 print(result)
@@ -99,7 +99,7 @@ plt.bar(categories, values, color = "Green")
 plt.xlabel("Categories")
 plt.ylabel("Values")
 plt.title("Bar Plot")
-plt.show()"""
+plt.show()
 
 import matplotlib.pyplot as plt
 data = [4, 6, 3, 8, 12, 11, 13, 1, 5]

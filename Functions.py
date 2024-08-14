@@ -1,4 +1,4 @@
-"""def add_numbers(num1, num2):
+def add_numbers(num1, num2):
     num_sum = num1 + num2
     return num_sum
 
@@ -309,7 +309,7 @@ def sum_of_squares(number):
 
 number_list = [2, 4, 6, 8, 10]
 result = sum_of_squares(number_list)
-print(result)"""
+print(result)
 
 
 def number_square(number):
