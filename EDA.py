@@ -71,5 +71,28 @@ plt.show()"""
 # print(df.columns)
 
 # print(df["adult_male"].value_counts())
-df["adult_male"].replace({True : 1, False : 0}, inplace = True)
-print(df["adult_male"].value_counts())
+# df["adult_male"].replace({True : 1, False : 0}, inplace = True)
+# print(df["adult_male"].value_counts())
+
+# print(df.isnull().sum())
+# df.dropna(subset = ["age"], inplace = True)
+# print(df.isnull().sum())
+
+"""sns.boxplot(y = "age", data = df)
+plt.ylabel("Age")
+plt.title("Box Plot for Age Column")
+plt.show()"""
+
+# df["age"] = df["age"].fillna(df["age"].median())
+# df["deck"] = df["deck"].fillna(df["deck"].mode()[0])
+# df.dropna(subset = ["embark_town"], inplace = True)
+# print(df.isnull().sum())
+
+# df.rename(columns = {"deck" : "cabin"}, inplace = True)
+# print(df.columns)
+
+plt.hist(df["who"], color = "skyblue", edgecolor = "black")
+plt.xlabel("Passenger Type")
+plt.ylabel("Frequency")
+plt.title("Distribution of Passengers Types")
+plt.show()
