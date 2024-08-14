@@ -42,10 +42,10 @@ plt.ylabel("Number of Passengers")
 plt.title("Survival by Gender")
 plt.show()"""
 
-sns.countplot(x = "pclass", hue = "survived", data = df)
+"""sns.countplot(x = "pclass", hue = "survived", data = df)
 plt.xlabel("Passenger Class")
 plt.ylabel("Number of Passengers")
 plt.title("Survival by Class")
-plt.show()
+plt.show()"""
 
 
