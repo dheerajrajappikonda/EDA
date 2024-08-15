@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# df = pd.read_csv(r"E:\Dheeraj\Finlatics Python\Capsule 4\titanic.csv")
-df = sns.load_dataset("titanic")
+# df = pd.read_csv(r"E:\Dheeraj\Finlatics Python\Capsule 4\Titanic.csv")
+df = sns.load_dataset("Titanic")
 
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
