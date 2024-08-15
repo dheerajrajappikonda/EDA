@@ -1,1 +1,1 @@
-# EDA
+This repository is for practicing Exploratory Data Analysis(EDA) on various datasets.
