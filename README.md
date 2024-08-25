@@ -1,1 +1,1 @@
-Performed Exploratory Data Analysis(EDA) on various datasets which includes Data Collection, Data Cleaning, Computing Statistical easures, Visualizations and Correlation Analysis.
+Performed Exploratory Data Analysis(EDA) on various datasets which includes Data Collection, Data Cleaning, Computing Statistical Measures, Visualizations and Correlation Analysis.
